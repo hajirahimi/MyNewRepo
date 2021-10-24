@@ -1,0 +1,16 @@
+/*Assignment2 app.css - Ahmad Hajirahimi - Student#: 301180926 - 10/24/2021 */
+
+body {
+
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    background-image: url("../assets/images/bg.jpg");
+    background-size: 1600px 800px;
+    position: relative;
+ }
+ footer {
+    line-height: 1;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    position: relative;
+    }

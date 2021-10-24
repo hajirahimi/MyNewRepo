@@ -1,0 +1,20 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main.ejs %>
+
+    
+<!---Main-->
+<main class='container'>
+  <div class="jumbotron">
+    <h1 class="display-6">Welcome to my <%= title %> page!</h1>
+  <% if (title == "Home"){%> <%- include pages/home.ejs %> <%} %>
+  <% if (title == "About"){%> <%- include pages/about.ejs %> <%} %>
+  <% if (title == "Projects"){%> <%- include pages/projects.ejs %> <%} %>
+  <% if (title == "Services"){%> <%- include pages/services.ejs %> <%} %>
+  <% if (title == "Contact me"){%> <%- include pages/contact.ejs %> <%} %>
+  </div>      
+</main>
+
+<%- include partials/bottom.ejs %>
+<%- include partials/footer.ejs %>
+
